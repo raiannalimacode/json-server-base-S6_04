@@ -22,3 +22,15 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Users 
+
+GET /users <br>
+
+Rota para mostrar todos os usuários. 
+
+### Cities 
+
+GET /cities <br>
+
+Rota para mostrar todas as cidades. Uma cidade pode se relacionar com vários usuários, porém um usuário só pode ter uma cidade. 
